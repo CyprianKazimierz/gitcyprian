@@ -1,0 +1,22 @@
+#Carpetes copilació
+bin/
+obj/
+
+#Fitxers Visual Studio
+.vs/ 
+.vscode/
+.idea/
+
+#Fitxers temporals Windows
+Thumbs.db
+ehthumbs.db
+
+# Dependencia Nuget
+.nuget/
+
+#Extensio especifica
+*.user
+*.suo 
+*.userosscache
+*.sln.docstates
+
