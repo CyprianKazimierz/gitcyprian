@@ -6,15 +6,15 @@ class Program
     static void Main(string[] args)
     {
         // Crear un objecte Vehicle
-        Vehicle vehicle1 = new Vehicle("Cordoba", "Seat", 2012, 210.0);
+        Cotxe cotxe1 = new Cotxe("Cordoba", "Seat", 2012, 210.0,4);
 
         // Mostrar la informació del vehicle
-        vehicle1.MostrarInformacio();
+        cotxe1.MostrarInformacio();
 
         // Crear un altre objecte Vehicle
-        Vehicle vehicle2 = new Vehicle("Ibiza", "Seat", 2017, 170.0);
+        Cotxe cotxe2 = new Cotxe("Ibiza", "Seat", 2017, 170.0,5);
         
         // Mostrar la informació del segon vehicle
-        vehicle2.MostrarInformacio();
+        cotxe2.MostrarInformacio();
     }
 }
