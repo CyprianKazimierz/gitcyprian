@@ -20,3 +20,8 @@ ehthumbs.db
 *.userosscache
 *.sln.docstates
 
+#ignorar les claus
+#privada
+id_*
+#publica
+*.pub
